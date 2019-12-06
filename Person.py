@@ -5,3 +5,6 @@ class Person:
         self._fName = fName
         self._lName = lName
         self._id = id
+
+    def __str__(self):
+        return "{} {} {}".format(self._fName, self._lName, self._id)
